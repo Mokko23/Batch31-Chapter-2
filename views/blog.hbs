@@ -46,8 +46,10 @@
       </div>
       <div class="blog-content">
         <div class="button-group">
+          {{#if isLogin}}
           <a class="btn-edit">Edit Post</button>
-            <a class="btn-post">Delete Blog</a>
+          {{/if}}
+          <a class="btn-post">Delete Blog</a>
         </div>
         <h1>
           <a href="/blog/1" target="_blank">
